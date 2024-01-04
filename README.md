@@ -7,3 +7,8 @@ android studio自定义个人偏好
 show tab in one row
 tab limmit
 open new tabs in end
+
+3、调出git保存代码
+VCS -> enable version control..
+
+
