@@ -16,3 +16,14 @@ VCS -> enable version control..
 
 
 
+
+----------------------------------------------------
+
+
+adb push app-aht-release.apk /system/app/SYSettingHmi/SYSettingHmi.apk
+
+adb push ./ /system/app/SYSettingHmi/lib/arm64/
+
+adb shell killall com.gxatek.cockpit.car.settings
+
+ git reset --soft HEAD~1
